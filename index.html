@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Harsh & Bijeta Wedding</title>
+<style>
+body{
+font-family: Arial;
+text-align:center;
+background:#fff5f7;
+}
+
+.section{
+padding:60px;
+}
+
+button{
+padding:12px 25px;
+font-size:18px;
+background:#e91e63;
+color:white;
+border:none;
+border-radius:8px;
+cursor:pointer;
+}
+
+#date{
+display:none;
+font-size:30px;
+color:#e91e63;
+margin-top:20px;
+}
+</style>
+</head>
+
+<body>
+
+<div class="section">
+<h1>Welcome</h1>
+<h2>Harsh ❤️ Bijeta</h2>
+<p>Tap below to reveal our special day</p>
+
+<button onclick="revealDate()">Reveal Date</button>
+
+<div id="date">
+29 November 2026 🎉
+</div>
+
+</div>
+
+<script>
+function revealDate(){
+document.getElementById("date").style.display="block";
+}
+</script>
+
+</body>
+</html>
